@@ -1,0 +1,22 @@
+# EXAMPLE ONLY. Created from screenshots; not the original Quartus .qsf.
+# Review board mapping and electrical constraints before hardware use.
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY temperature_converter_top
+set_location_assignment PIN_AC26 -to {G[2]}
+set_location_assignment PIN_AB27 -to {G[1]}
+set_location_assignment PIN_AD27 -to {G[0]}
+set_location_assignment PIN_AC27 -to {Selector[2]}
+set_location_assignment PIN_AC28 -to {Selector[1]}
+set_location_assignment PIN_AB28 -to {Selector[0]}
+set_location_assignment PIN_AC25 -to {Y[2]}
+set_location_assignment PIN_AB26 -to {Y[1]}
+set_location_assignment PIN_AD26 -to {Y[0]}
+set_location_assignment PIN_G19 -to OverflowFlag
+set_location_assignment PIN_H22 -to {SevenSegment[6]}
+set_location_assignment PIN_J22 -to {SevenSegment[5]}
+set_location_assignment PIN_L25 -to {SevenSegment[4]}
+set_location_assignment PIN_L26 -to {SevenSegment[3]}
+set_location_assignment PIN_E17 -to {SevenSegment[2]}
+set_location_assignment PIN_F22 -to {SevenSegment[1]}
+set_location_assignment PIN_G18 -to {SevenSegment[0]}

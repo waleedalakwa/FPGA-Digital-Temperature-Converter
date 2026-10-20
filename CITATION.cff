@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository in academic work, please cite it using these details."
+title: "FPGA Digital Temperature Converter"
+type: software
+authors:
+  - family-names: "Alakwa"
+    given-names: "Waleed"
+url: "https://github.com/WaleedAlakwa/FPGA-Digital-Temperature-Converter"
+license: MIT
